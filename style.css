@@ -400,7 +400,6 @@ h1, h2, h3, h4{
   50%{ opacity: 0.4; transform: scale(0.7); }
 }
 
-/* signature element: CSS-only typewriter code card */
 .code-card{
   position: absolute;
   top: -30px;
@@ -517,7 +516,7 @@ h1, h2, h3, h4{
 }
 .about-body strong{ color: var(--ink); font-weight: 600; }
 
-/* ---------- 7. Education ---------- */
+/* Education  */
 .education{
   padding: var(--space-7) 0;
   background: linear-gradient(180deg, rgba(245,158,11,0.05), transparent 50%);
@@ -585,7 +584,7 @@ h1, h2, h3, h4{
   letter-spacing: 0.06em;
 }
 
-/* ---------- 8. Skills ---------- */
+/*  Skills */
 .skills{
   padding: var(--space-7) 0;
   background: linear-gradient(180deg, rgba(20,184,166,0.06), rgba(59,130,246,0.04) 60%, transparent);
@@ -650,7 +649,7 @@ h1, h2, h3, h4{
 }
 @keyframes fillBar{ to{ width: var(--w); } }
 
-/* chip groups (basics + tools) */
+/* chip groups */
 .chip-group{ display: flex; flex-wrap: wrap; gap: 10px; }
 .chip{
   display: inline-flex;
@@ -676,7 +675,7 @@ h1, h2, h3, h4{
 .chip.c-pink{ background: rgba(236,72,153,0.1); border-color: rgba(236,72,153,0.3); color: #be185d; }
 .chip.c-pink:hover{ border-color: var(--pink); }
 
-/* ---------- 9. Projects ---------- */
+/*  Projects */
 .projects{
   padding: var(--space-7) 0;
   background: linear-gradient(180deg, rgba(59,130,246,0.05), rgba(108,60,233,0.03) 60%, transparent);
@@ -780,7 +779,7 @@ h1, h2, h3, h4{
 }
 .project-card.placeholder .project-thumb span{ color: var(--accent-dark); }
 
-/* ---------- 10. Experience ---------- */
+/*  Experience */
 .experience{
   padding: var(--space-7) 0;
   background: linear-gradient(180deg, rgba(108,60,233,0.05), rgba(236,72,153,0.04) 60%, transparent);
@@ -849,7 +848,7 @@ h1, h2, h3, h4{
   position: absolute; left: 0; color: var(--accent);
 }
 
-/* ---------- 11. Contact / Footer ---------- */
+/* Contact / Footer  */
 .contact{
   padding: var(--space-7) 0 var(--space-5);
   background: var(--ink);
@@ -921,7 +920,7 @@ h1, h2, h3, h4{
 .footer-bottom a{ color: #B9AFD1; }
 .footer-bottom a:hover{ color: #fff; }
 
-/* ---------- 12. Responsive ---------- */
+/* Responsive  */
 @media (max-width: 1024px){
   .hero .container{ grid-template-columns: 1fr; }
   .hero-photo-wrap{ order: -1; }
