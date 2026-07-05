@@ -448,7 +448,7 @@ h1, h2, h3, h4{
   display: flex;
   width: max-content;
   gap: 40px;
-  animation: scrollTicker 45s linear infinite;
+  animation: scrollTicker 15s linear infinite;
 }
 .ticker-track span{
   font-family: var(--font-mono);
@@ -472,7 +472,7 @@ h1, h2, h3, h4{
 .ticker-track span:nth-child(6)::before{ background: var(--pink-light); }
 @keyframes scrollTicker{
   from{ transform: translateX(180%); }
-  to{ transform: translateX(-500%); }
+  to{ transform: translateX(-50%); }
 }
 
 /* About */
